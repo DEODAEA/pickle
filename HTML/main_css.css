@@ -1,0 +1,49 @@
+html {
+  background-color: white;
+}
+a {
+  text-decoration: none;
+  color: black;
+  display: block;
+}
+body {
+  margin: 50px 350px;
+  padding: 10px 0px;
+  background-color: #F6FAFC;
+}
+header h1 {
+  text-align: center;
+  margin: 0px;
+  height: 250px;
+  line-height: 250px;
+  font-size: 60px;
+}
+nav ul {
+  margin: 0px;
+  padding: 0px;
+  background-color: #B8E0F3;
+  text-align: center;
+  font-size: 25px;
+  line-height: 50px;
+  list-style-type: none;
+  display: grid;
+  grid-template-columns: 150px 150px 150px 150px 1fr 200px;
+}
+nav ul .ref {
+  grid-column: 6;
+}
+section .navsec {
+  margin: 100px;
+  padding: 0px 80px;
+  display: grid;
+  grid-template-columns: 350px 350px;
+  grid-template-rows: 350px 350px;
+  grid-gap: 50px;
+  justify-content: center;
+}
+section .navsec a {
+  padding: 30px;
+}
+section .navsec a p {
+  line-height: 40px;
+}
